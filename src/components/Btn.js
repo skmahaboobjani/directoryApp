@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 const Btn = () => {
   return (
-    <div className="button">
-      <button className="btn-page">
+    <div >
+      <button>
         <Link to={"/"}>Add New Person</Link>
       </button>
-      <button className="btn-page">
+      <button>
         <Link to={"/retrieve"}>Retrieve Information</Link>
       </button>
     </div>
